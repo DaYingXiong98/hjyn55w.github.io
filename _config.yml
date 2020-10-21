@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
-root: /
+url: https://hjyn55w.github.io/DYX_Blog/
+root: /DYX_Blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -110,7 +110,9 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  # repo: git@github.com:Hjyn55w/DYX_Blog
+  branch: gh-pages
 
 # 搜索
 ## Hexo 插件 hexo-generator-search 
@@ -143,7 +145,7 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
-  
+
 # 添加 RSS 订阅支持
 ## 执行 hexo clean && hexo g 重新生成博客文件，然后在 public 文件夹中即可看到 atom.xml 文件，说明你已经安装成功了。
 feed:
